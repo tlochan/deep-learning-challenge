@@ -15,12 +15,14 @@ Results:
            versions of the model
 
 Compiling, Training, and Evaluating the Model
+![model1]('https://github.com/tlochan/deep-learning-challenge/blob/main/pics/model1.png?raw=true')
 * The original version of the neural network had 2 Hidden layers (5 neurons/relu 
           for both) and 1 Output Layer (1 neuron/sigmoid) -- the thinking here was to 
           integrate all of the metadata into a binary classifier of successful or not
 * This model only reached 73% accuracyafter 100 epochs, which didn't reach our 
           target efficacy
-![model1]('https://github.com/tlochan/deep-learning-challenge/blob/main/pics/model1.png')
+
+  
 *The second, optimized version of the neural network added Name as a feature 
           varaible and binned less data as 'Other' for the application and classification 
           columns. My logic was to give more data points to the model to evaluate.
