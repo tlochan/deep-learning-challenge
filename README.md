@@ -20,7 +20,7 @@ Compiling, Training, and Evaluating the Model
           integrate all of the metadata into a binary classifier of successful or not
 * This model only reached 73% accuracyafter 100 epochs, which didn't reach our 
           target efficacy
-![model1]('.\model1.png')
+![model1]('https://github.com/tlochan/deep-learning-challenge/blob/main/model1.png')
 *The second, optimized version of the neural network added Name as a feature 
           varaible and binned less data as 'Other' for the application and classification 
           columns. My logic was to give more data points to the model to evaluate.
