@@ -15,7 +15,7 @@ Results:
            versions of the model
 
 Compiling, Training, and Evaluating the Model
-![model1]('https://github.com/tlochan/deep-learning-challenge/blob/main/pics/model1.png?raw=true')
+![model1]('./pics/model1.png')
 * The original version of the neural network had 2 Hidden layers (5 neurons/relu 
           for both) and 1 Output Layer (1 neuron/sigmoid) -- the thinking here was to 
           integrate all of the metadata into a binary classifier of successful or not
@@ -29,7 +29,7 @@ Compiling, Training, and Evaluating the Model
 * The second layer was given 2 more Neurons, and I also added 2 Hidden Layers
        (7 Neurons/Sigmoid) & (5 Neurons/Sigmoid) to make the neural net more robust
 * After these improvements, the model achieved 75.6% accuracy
-![model2]('./model2.png')
+![model2]('./pics/model2.png')
 
    Summary: 
    Based on my analysis, the Keras Sequential Model was successfully deployed to predict whether an organization would successfully implement funding from Alphabet Soup. With an Accuracy of 75%, this model is a useful tool in predicting whether potential new entires would be fruitful endeavors but not one we should rely too heavily on. 
