@@ -6,8 +6,8 @@ Overview of the analysis: In this analysis on behalf of the Alphabet Soup Charit
 Results: 
 
   Data Preprocessing
-        * The target of the model is IS_SUCCESSFUL—Was the money used effectively? IN other words, which past organizations used the funding successfully.
-        * Feature variables include: NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION,
+* The target of the model is IS_SUCCESSFUL—Was the money used effectively? IN other words, which past organizations used the funding successfully.
+* Feature variables include: NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION,
         USE_CASE, ORGANIZATION, STATUS,INCOME_AMT,SPECIAL_CONSIDERATIONS, & ASK_AMT
           * Here we used metadata centered on the organization itself and also parameters 
             of the funding 
